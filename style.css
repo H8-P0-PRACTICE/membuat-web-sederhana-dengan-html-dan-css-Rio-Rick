@@ -1,1 +1,59 @@
 /* write your code here */
+body{
+    background-color: #711DB0;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: justify;
+    color: #FFA732;
+    text-shadow: 2px 2px 5px black
+}
+#text{
+    /* display: inline; */
+    background-color: #C21292;
+    /* rotate: 360deg; */
+    border-radius: 50px;
+    padding: 10px;
+    padding-bottom: 150px;
+    border: 5px solid black;
+}
+#foto{
+    width: 150px;
+    float: left;
+    margin: 10px;
+    border: 5px solid #EF4040;
+    transition: all 1s;
+}
+
+#foto:hover {
+    rotate: 360deg;
+    /* transform: scaleX(-1); */
+    transform: scaleY(-1);
+    /* transform: sca; */
+    transition: all 1s;
+}
+/* #pic-sakura {
+    position: absolute;
+    border-radius: 50px;
+    margin: 0px;
+    max-width: 12000px;
+    max-height: 30px;
+    object-fit: fill;
+    height: auto;
+} */
+/* #text:hover {
+    rotate: 180deg;
+    transition: all 1s
+} */
+/* #box{
+    display: block;
+    width: 350px;
+    height: 350px;
+    background-color: red;
+}
+#box:hover {
+    rotate: 360deg;
+    transition: all 0.5s
+} */
